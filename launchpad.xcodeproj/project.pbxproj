@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3DE507E23006F1B00BFE953 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DE507D23006F1B00BFE953 /* AppDelegate.swift */; };
+		D3DE508023006F1B00BFE953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3DE507F23006F1B00BFE953 /* Assets.xcassets */; };
+		D3DE508F23006F1C00BFE953 /* launchpadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DE508E23006F1C00BFE953 /* launchpadTests.swift */; };
+		D3DE509A23006F1C00BFE953 /* launchpadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DE509923006F1C00BFE953 /* launchpadUITests.swift */; };
+		D3DE50AF2300708F00BFE953 /* LaunchpadConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DE50AC2300708F00BFE953 /* LaunchpadConfig.swift */; };
+		D3DE50B02300708F00BFE953 /* LebkuchenFM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DE50AD2300708F00BFE953 /* LebkuchenFM.swift */; };
+		D3DE50B12300708F00BFE953 /* DefaultLaunchpadConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = D3DE50AE2300708F00BFE953 /* DefaultLaunchpadConfig.json */; };
+		D3DE50B5230070B900BFE953 /* KeyboardEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DE50B3230070B900BFE953 /* KeyboardEventHandler.swift */; };
+		D3DE50B6230070B900BFE953 /* KeyboardEventHandler+lowLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DE50B4230070B900BFE953 /* KeyboardEventHandler+lowLevel.swift */; };
+		D3DE50BA230070C800BFE953 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DE50B8230070C800BFE953 /* Webservice.swift */; };
+		D3DE50BD23008CC100BFE953 /* NotificationsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DE50BC23008CC100BFE953 /* NotificationsHelper.swift */; };
+		D3DE50C023009B2100BFE953 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3DE50BF23009B2100BFE953 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3DE508B23006F1C00BFE953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3DE507223006F1B00BFE953 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3DE507923006F1B00BFE953;
+			remoteInfo = launchpad;
+		};
+		D3DE509623006F1C00BFE953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3DE507223006F1B00BFE953 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3DE507923006F1B00BFE953;
+			remoteInfo = launchpad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3DE507A23006F1B00BFE953 /* launchpad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = launchpad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3DE507D23006F1B00BFE953 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3DE507F23006F1B00BFE953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3DE508423006F1B00BFE953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3DE508523006F1B00BFE953 /* launchpad.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = launchpad.entitlements; sourceTree = "<group>"; };
+		D3DE508A23006F1C00BFE953 /* launchpadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = launchpadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3DE508E23006F1C00BFE953 /* launchpadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = launchpadTests.swift; sourceTree = "<group>"; };
+		D3DE509023006F1C00BFE953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3DE509523006F1C00BFE953 /* launchpadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = launchpadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3DE509923006F1C00BFE953 /* launchpadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = launchpadUITests.swift; sourceTree = "<group>"; };
+		D3DE509B23006F1C00BFE953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3DE50AC2300708F00BFE953 /* LaunchpadConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchpadConfig.swift; sourceTree = "<group>"; };
+		D3DE50AD2300708F00BFE953 /* LebkuchenFM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LebkuchenFM.swift; sourceTree = "<group>"; };
+		D3DE50AE2300708F00BFE953 /* DefaultLaunchpadConfig.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DefaultLaunchpadConfig.json; sourceTree = "<group>"; };
+		D3DE50B3230070B900BFE953 /* KeyboardEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardEventHandler.swift; sourceTree = "<group>"; };
+		D3DE50B4230070B900BFE953 /* KeyboardEventHandler+lowLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KeyboardEventHandler+lowLevel.swift"; sourceTree = "<group>"; };
+		D3DE50B8230070C800BFE953 /* Webservice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		D3DE50BC23008CC100BFE953 /* NotificationsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsHelper.swift; sourceTree = "<group>"; };
+		D3DE50BF23009B2100BFE953 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3DE507723006F1B00BFE953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DE508723006F1C00BFE953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DE509223006F1C00BFE953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3DE507123006F1B00BFE953 = {
+			isa = PBXGroup;
+			children = (
+				D3DE507C23006F1B00BFE953 /* launchpad */,
+				D3DE508D23006F1C00BFE953 /* launchpadTests */,
+				D3DE509823006F1C00BFE953 /* launchpadUITests */,
+				D3DE507B23006F1B00BFE953 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3DE507B23006F1B00BFE953 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3DE507A23006F1B00BFE953 /* launchpad.app */,
+				D3DE508A23006F1C00BFE953 /* launchpadTests.xctest */,
+				D3DE509523006F1C00BFE953 /* launchpadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3DE507C23006F1B00BFE953 /* launchpad */ = {
+			isa = PBXGroup;
+			children = (
+				D3DE50BE230096B800BFE953 /* Menu */,
+				D3DE50B7230070BE00BFE953 /* Networking */,
+				D3DE50B2230070A100BFE953 /* KeyboardEventHandler */,
+				D3DE50AB2300707000BFE953 /* LebkuchenFM */,
+				D3DE507D23006F1B00BFE953 /* AppDelegate.swift */,
+				D3DE50BF23009B2100BFE953 /* MainMenu.xib */,
+				D3DE507F23006F1B00BFE953 /* Assets.xcassets */,
+				D3DE508423006F1B00BFE953 /* Info.plist */,
+				D3DE508523006F1B00BFE953 /* launchpad.entitlements */,
+				D3DE50BC23008CC100BFE953 /* NotificationsHelper.swift */,
+			);
+			path = launchpad;
+			sourceTree = "<group>";
+		};
+		D3DE508D23006F1C00BFE953 /* launchpadTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3DE508E23006F1C00BFE953 /* launchpadTests.swift */,
+				D3DE509023006F1C00BFE953 /* Info.plist */,
+			);
+			path = launchpadTests;
+			sourceTree = "<group>";
+		};
+		D3DE509823006F1C00BFE953 /* launchpadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3DE509923006F1C00BFE953 /* launchpadUITests.swift */,
+				D3DE509B23006F1C00BFE953 /* Info.plist */,
+			);
+			path = launchpadUITests;
+			sourceTree = "<group>";
+		};
+		D3DE50AB2300707000BFE953 /* LebkuchenFM */ = {
+			isa = PBXGroup;
+			children = (
+				D3DE50AE2300708F00BFE953 /* DefaultLaunchpadConfig.json */,
+				D3DE50AC2300708F00BFE953 /* LaunchpadConfig.swift */,
+				D3DE50AD2300708F00BFE953 /* LebkuchenFM.swift */,
+			);
+			path = LebkuchenFM;
+			sourceTree = "<group>";
+		};
+		D3DE50B2230070A100BFE953 /* KeyboardEventHandler */ = {
+			isa = PBXGroup;
+			children = (
+				D3DE50B3230070B900BFE953 /* KeyboardEventHandler.swift */,
+				D3DE50B4230070B900BFE953 /* KeyboardEventHandler+lowLevel.swift */,
+			);
+			path = KeyboardEventHandler;
+			sourceTree = "<group>";
+		};
+		D3DE50B7230070BE00BFE953 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				D3DE50B8230070C800BFE953 /* Webservice.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		D3DE50BE230096B800BFE953 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3DE507923006F1B00BFE953 /* launchpad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3DE509E23006F1C00BFE953 /* Build configuration list for PBXNativeTarget "launchpad" */;
+			buildPhases = (
+				D3DE507623006F1B00BFE953 /* Sources */,
+				D3DE507723006F1B00BFE953 /* Frameworks */,
+				D3DE507823006F1B00BFE953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = launchpad;
+			productName = launchpad;
+			productReference = D3DE507A23006F1B00BFE953 /* launchpad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3DE508923006F1C00BFE953 /* launchpadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3DE50A123006F1C00BFE953 /* Build configuration list for PBXNativeTarget "launchpadTests" */;
+			buildPhases = (
+				D3DE508623006F1C00BFE953 /* Sources */,
+				D3DE508723006F1C00BFE953 /* Frameworks */,
+				D3DE508823006F1C00BFE953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3DE508C23006F1C00BFE953 /* PBXTargetDependency */,
+			);
+			name = launchpadTests;
+			productName = launchpadTests;
+			productReference = D3DE508A23006F1C00BFE953 /* launchpadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3DE509423006F1C00BFE953 /* launchpadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3DE50A423006F1C00BFE953 /* Build configuration list for PBXNativeTarget "launchpadUITests" */;
+			buildPhases = (
+				D3DE509123006F1C00BFE953 /* Sources */,
+				D3DE509223006F1C00BFE953 /* Frameworks */,
+				D3DE509323006F1C00BFE953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3DE509723006F1C00BFE953 /* PBXTargetDependency */,
+			);
+			name = launchpadUITests;
+			productName = launchpadUITests;
+			productReference = D3DE509523006F1C00BFE953 /* launchpadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3DE507223006F1B00BFE953 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Michal Gorzalczany";
+				TargetAttributes = {
+					D3DE507923006F1B00BFE953 = {
+						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.HardenedRuntime = {
+								enabled = 1;
+							};
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					D3DE508923006F1C00BFE953 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = D3DE507923006F1B00BFE953;
+					};
+					D3DE509423006F1C00BFE953 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = D3DE507923006F1B00BFE953;
+					};
+				};
+			};
+			buildConfigurationList = D3DE507523006F1B00BFE953 /* Build configuration list for PBXProject "launchpad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3DE507123006F1B00BFE953;
+			productRefGroup = D3DE507B23006F1B00BFE953 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3DE507923006F1B00BFE953 /* launchpad */,
+				D3DE508923006F1C00BFE953 /* launchpadTests */,
+				D3DE509423006F1C00BFE953 /* launchpadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3DE507823006F1B00BFE953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DE50B12300708F00BFE953 /* DefaultLaunchpadConfig.json in Resources */,
+				D3DE508023006F1B00BFE953 /* Assets.xcassets in Resources */,
+				D3DE50C023009B2100BFE953 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DE508823006F1C00BFE953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DE509323006F1C00BFE953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3DE507623006F1B00BFE953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DE50AF2300708F00BFE953 /* LaunchpadConfig.swift in Sources */,
+				D3DE50B02300708F00BFE953 /* LebkuchenFM.swift in Sources */,
+				D3DE50BA230070C800BFE953 /* Webservice.swift in Sources */,
+				D3DE50B5230070B900BFE953 /* KeyboardEventHandler.swift in Sources */,
+				D3DE50BD23008CC100BFE953 /* NotificationsHelper.swift in Sources */,
+				D3DE507E23006F1B00BFE953 /* AppDelegate.swift in Sources */,
+				D3DE50B6230070B900BFE953 /* KeyboardEventHandler+lowLevel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DE508623006F1C00BFE953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DE508F23006F1C00BFE953 /* launchpadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DE509123006F1C00BFE953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DE509A23006F1C00BFE953 /* launchpadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3DE508C23006F1C00BFE953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3DE507923006F1B00BFE953 /* launchpad */;
+			targetProxy = D3DE508B23006F1C00BFE953 /* PBXContainerItemProxy */;
+		};
+		D3DE509723006F1C00BFE953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3DE507923006F1B00BFE953 /* launchpad */;
+			targetProxy = D3DE509623006F1C00BFE953 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D3DE509C23006F1C00BFE953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3DE509D23006F1C00BFE953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D3DE509F23006F1C00BFE953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UH5DNWTJ3W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = launchpad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pl.gorzalczany.launchpad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D3DE50A023006F1C00BFE953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UH5DNWTJ3W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = launchpad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pl.gorzalczany.launchpad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D3DE50A223006F1C00BFE953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UH5DNWTJ3W;
+				INFOPLIST_FILE = launchpadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pl.gorzalczany.launchpadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/launchpad.app/Contents/MacOS/launchpad";
+			};
+			name = Debug;
+		};
+		D3DE50A323006F1C00BFE953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UH5DNWTJ3W;
+				INFOPLIST_FILE = launchpadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pl.gorzalczany.launchpadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/launchpad.app/Contents/MacOS/launchpad";
+			};
+			name = Release;
+		};
+		D3DE50A523006F1C00BFE953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UH5DNWTJ3W;
+				INFOPLIST_FILE = launchpadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pl.gorzalczany.launchpadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = launchpad;
+			};
+			name = Debug;
+		};
+		D3DE50A623006F1C00BFE953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UH5DNWTJ3W;
+				INFOPLIST_FILE = launchpadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pl.gorzalczany.launchpadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = launchpad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3DE507523006F1B00BFE953 /* Build configuration list for PBXProject "launchpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3DE509C23006F1C00BFE953 /* Debug */,
+				D3DE509D23006F1C00BFE953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3DE509E23006F1C00BFE953 /* Build configuration list for PBXNativeTarget "launchpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3DE509F23006F1C00BFE953 /* Debug */,
+				D3DE50A023006F1C00BFE953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3DE50A123006F1C00BFE953 /* Build configuration list for PBXNativeTarget "launchpadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3DE50A223006F1C00BFE953 /* Debug */,
+				D3DE50A323006F1C00BFE953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3DE50A423006F1C00BFE953 /* Build configuration list for PBXNativeTarget "launchpadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3DE50A523006F1C00BFE953 /* Debug */,
+				D3DE50A623006F1C00BFE953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3DE507223006F1B00BFE953 /* Project object */;
+}

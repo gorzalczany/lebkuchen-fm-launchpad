@@ -1,0 +1,105 @@
+{
+    "applicationURL": "https://lebkuchen-fm-service-ph05lk.herokuapp.com/",
+    "keyMapping": [
+        {
+            "value": "10",
+            "action": "VOL",
+            "key": "1"
+        },
+        {
+            "value": "20",
+            "action": "VOL",
+            "key": "2"
+        },
+        {
+            "value": "30",
+            "action": "VOL",
+            "key": "3"
+        },
+        {
+            "value": "40",
+            "action": "VOL",
+            "key": "4"
+        },
+        {
+            "value": "50",
+            "action": "VOL",
+            "key": "5"
+        },
+        {
+            "value": "60",
+            "action": "VOL",
+            "key": "6"
+        },
+        {
+            "value": "70",
+            "action": "VOL",
+            "key": "7"
+        },
+        {
+            "value": "80",
+            "action": "VOL",
+            "key": "8"
+        },
+        {
+            "value": "90",
+            "action": "VOL",
+            "key": "9"
+        },
+        {
+            "value": "100",
+            "action": "VOL",
+            "key": "0"
+        },
+        {
+            "value": "",
+            "action": "RANDOM",
+            "key": " "
+        },
+        {
+            "value": "_O6c4xJEyik",
+            "action": "QUERY",
+            "key": "q"
+        },
+        {
+            "value": "krawczyk unitra",
+            "action": "SEARCH",
+            "key": "s"
+        },
+        {
+            "value": "godzilla",
+            "action": "VOL",
+            "key": "w"
+        },
+        {
+            "value": "stop",
+            "action": "SOUND",
+            "key": "e"
+        },
+        {
+            "value": "co",
+            "action": "SOUND",
+            "key": "a"
+        },
+        {
+            "value": "go deeper",
+            "action": "SOUND",
+            "key": "d"
+        },
+        {
+            "value": "",
+            "action": "SKIP",
+            "key": "z"
+        },
+        {
+            "value": "badumtss",
+            "action": "SOUND",
+            "key": "x"
+        },
+        {
+            "value": "sad",
+            "action": "SOUND",
+            "key": "c"
+        }
+    ]
+}

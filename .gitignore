@@ -1,0 +1,54 @@
+## Information about particular files http://stackoverflow.com/questions/49478/git-ignore-file-for-xcode-projects
+
+## OS X temporary files that should never be committed
+.DS_Store
+.Trashes
+*.swp
+
+## Other
+*.xcscmblueprint
+*.moved-aside
+*.xccheckout
+env.sh
+
+## Build generated
+DerivedData/
+compile_commands.json
+report.xml
+Carthage
+Cartfile.resolved
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+## IDEA AppCode
+.idea
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+
+## rbenv
+.ruby-version
+
+## python
+*.pyc
+
+## Xcode Playground timeline
+.xctimeline
+*.xctimeline
+
+## Bundler and local gems
+.gems/*
+.bundle/*
+
+## Fastlane
+fastlane/README.md
